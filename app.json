@@ -5,8 +5,25 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#262a30",
+    "navigationBarTitleText": "李奕逊的个人简历",
+    "navigationBarTextStyle":"#fff",
+    "backgroundColor": "#eeeeee"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      }
+    ],
+    "color": "white",
+    "selectedColor": "blue",
+    "backgroundColor": "#BFEABC",
+    "borderStyle": "black"
   }
 }
