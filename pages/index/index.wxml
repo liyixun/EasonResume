@@ -11,5 +11,20 @@
         <text wx:if="{{item.clickable}}" class="user-info-block-item-clickable" bindtap="clickSimpleInfoItem" id="{{item.key}}">{{item.value}}</text>
       </view>
     </view>
+
+    <view class="user-info-block">
+      <text class='user-info-block-head'>奖项及证书</text>
+      <view class='user-info-block-list' wx:for="{{personalPrizeList}}" wx:for-item="item" wx:for-index="index" wx:key="item.title">
+        <text>{{index + 1}}. </text>
+        <text>{{item.title}}</text>
+        <text wx:if="{{item.remark}}">({{item.remark}});</text>
+      </view>
+    </view>
+
+    <view class='user-info-block'>
+      <text class='user-info-block-head'>二维码名片</text>
+      <image src='eason.jpeg' mode='widthFix'></image>
+    </view>
+
   </view>
 </view>

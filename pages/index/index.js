@@ -11,7 +11,8 @@ Page({
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
-    personalSimpleInfo: []
+    personalSimpleInfo: [],
+    personalPrizeList: []
   },
   //事件处理函数
   bindViewTap: function() {
@@ -78,7 +79,8 @@ Page({
       }
     });
     this.setData({
-      personalSimpleInfo: personalInfo.personalSimpleInfo
+      personalSimpleInfo: personalInfo.personalSimpleInfo,
+      personalPrizeList: personalInfo.personalPrize
     })
   },
   handleClickPhoneNumber: function(phoneNumber) {

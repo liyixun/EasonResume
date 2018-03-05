@@ -43,8 +43,22 @@ var personalPhoneContactInfo = {
   weChatNumber: 'wxid_wyy3dnqm5lxe41'
 };
 
+var personalPrize = [{
+  title: '2017年度赫基国际优秀项目奖',
+  remark: 'TPOS'
+},{
+  title: '“Hello C”c/c++程序编程比赛优胜奖',
+  remark: ''
+},{
+  title: '校三等奖学金',
+  remark: '大二、大三'
+},{
+  title: 'CET-4'
+}];
+
 // 定义数据出口
 module.exports = {
   personalSimpleInfo: personalSimpleInfo,
-  personalPhoneContactInfo: personalPhoneContactInfo
+  personalPhoneContactInfo: personalPhoneContactInfo,
+  personalPrize: personalPrize
 }
