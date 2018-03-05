@@ -1,0 +1,27 @@
+/* pages/skill/skill.wxss */
+.personal-skill {
+  margin: 0 20px;
+  display: block;
+}
+
+.personal-skill .personal-skill-block {
+    display: block;
+}
+
+.personal-skill .personal-skill-block .personal-skill-head {
+  margin: 20px 0;
+  display: block;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.personal-skill .personal-skill-block .personal-skill-line {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.personal-skill .personal-skill-block .personal-skill-line .personal-skill-line-item {
+  width: 33%;
+}
+
+

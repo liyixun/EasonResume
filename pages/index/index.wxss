@@ -51,7 +51,3 @@
   font-weight: 200;
 }
 
-.user-info .user-info-block .user-info-block-list .user-info-block-item-clickable {
-  text-decoration: underline;
-  color: blue;
-}

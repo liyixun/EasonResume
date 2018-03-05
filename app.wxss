@@ -7,3 +7,8 @@
   font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
 } 
 
+.item-clickable {
+  text-decoration: underline;
+  color: blue;
+}
+

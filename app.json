@@ -1,13 +1,14 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/skill/skill"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#262a30",
     "navigationBarTitleText": "李奕逊的个人简历",
-    "navigationBarTextStyle":"#fff",
+    "navigationBarTextStyle": "#fff",
     "backgroundColor": "#eeeeee"
   },
   "tabBar": {
@@ -17,8 +18,8 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "text": "日志"
+        "pagePath": "pages/skill/skill",
+        "text": "技能"
       }
     ],
     "color": "white",

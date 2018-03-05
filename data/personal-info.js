@@ -56,9 +56,20 @@ var personalPrize = [{
   title: 'CET-4'
 }];
 
+var workingExperience = [{
+    startTime: '2016.9.19',
+    endTime: '今',
+    company: '赫基国际',
+    companyLink: 'https://baike.baidu.com/item/赫基国际集团/4591849?fr=aladdin',
+    department: 'Five plus信息技术部',
+    job: '资讯技术工程师（前端）',
+    desc: '负责集团和事业部内部系统开发，主要负责前端功能模块开发，代码重构，交互优化，实现UI设计师给出的设计稿，配合产品设计师优化系统功能，并参与项 目上线发布前的测试及上线后的运维工作；完成前端组长分配的任务，并能独立负责核心模块的开发工作，为实习生制定成长计划，培养前端新生力量。'
+}];
+
 // 定义数据出口
 module.exports = {
   personalSimpleInfo: personalSimpleInfo,
   personalPhoneContactInfo: personalPhoneContactInfo,
-  personalPrize: personalPrize
+  personalPrize: personalPrize,
+  workingExperience: workingExperience
 }
