@@ -1,0 +1,51 @@
+<!--pages/project/project.wxml-->
+<view class='container'>
+  <view class='block'>
+    <text class='block-head'>公司项目</text>
+    <view class='project-block' wx:for="{{companyProjectList}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+      <text class='project-info-head'>
+        {{item.projectName}}({{item.projectBelongCompany}})
+      </text>
+      <view class='project-info-body'>
+         <view>
+        <text class='project-info-label'>1.开发周期：</text>
+        <text class='project-info-content'>{{item.startTime}}-{{item.endTime}}</text>
+      </view>
+      <view>
+        <text class='project-info-label'>2.技术栈：</text>
+        <text class='project-info-content'>{{item.technologyStack}}</text>
+      </view>
+      <view>
+        <text class='project-info-label'>3.项目描述：</text>
+        <text class='project-info-content'>{{item.projectDesc}}</text>
+      </view>
+      <view>
+        <text class='project-info-label'>4.责任描述：</text>
+        <text class='project-info-content'>{{item.responsibilityDesc}}</text>
+      </view>
+      </view>
+    </view>
+  </view>
+  <view class='block'>
+    <text class='block-head'>个人项目</text>
+    <view class='project-block' wx:for="{{personalProjectList}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+      <text class='project-info-head'>
+        {{item.projectName}}
+      </text>
+      <view class='project-info-body'>
+         <view>
+        <text class='project-info-label'>1.开发周期：</text>
+        <text class='project-info-content'>{{item.startTime}}-{{item.endTime}}</text>
+      </view>
+      <view>
+        <text class='project-info-label'>2.技术栈：</text>
+        <text class='project-info-content'>{{item.technologyStack}}</text>
+      </view>
+      <view>
+        <text class='project-info-label'>3.项目描述：</text>
+        <text class='project-info-content'>{{item.projectDesc}}</text>
+      </view>
+      </view>
+    </view>
+  </view>
+</view>

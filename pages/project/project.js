@@ -1,7 +1,7 @@
-// pages/skill/skill.js
+// pages/project/project.js
 
 var personalInfo = require('../../data/personal-info.js');
-var util = require('../../utils/util.js');
+var util = require('../../utils/util.js');  
 
 Page({
 
@@ -9,8 +9,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    workingExperienceList: [],
-    personalSkillList: []
+    companyProjectList: [],
+    personalProjectList: []
   },
 
   /**
@@ -18,8 +18,8 @@ Page({
    */
   onLoad: function (options) {
     this.setData({
-      workingExperienceList: personalInfo.workingExperience,
-      personalSkillList: personalInfo.personalSkillList
+      companyProjectList: personalInfo.companyProjectList,
+      personalProjectList: personalInfo.personalProjectList
     });
   },
 

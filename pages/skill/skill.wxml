@@ -1,20 +1,30 @@
 <view class="container">
   <view class='personal-skill'>
     <view class='personal-skill-block'>
-      <text class='personal-skill-head'>工作经验</text>
+      <text class='personal-skill-head head'>工作经验</text>
       <view wx:for="{{workingExperienceList}}" wx:for-item="item" wx:for-index="index" wx:key="index">
         <view class='personal-skill-line'>
-          <text class='personal-skill-line-item'>{{item.company}}{{item.department}}({{item.startTime}}-{{item.endTime}})</text>
+          <text class='head'>
+          {{item.company}}{{item.department}}({{item.startTime}}-{{item.endTime}})
+          </text>
         </view>
-        <view class='personal-skill-line'>
-          <text class='personal-skill-line-item'>{{item.job}}</text>
+        <view class='personal-skill-line head'>
+          <text class=''>{{item.job}}</text>
         </view>
 
-        <view class='personal-skill-line'>
-          <text class='personal-skill-line-item'>{{item.desc}}</text>
+        <view class='personal-skill-desc'>
+          <text>{{item.desc}}</text>
         </view>
 
       </view>
+    </view>
+
+    <view class='personal-skill-block'>
+      <text class='personal-skill-head'>个人技能</text>
+      <view wx:for='{{personalSkillList}}' wx:for-item="item" wx:for-index="index" wx:key="index" class='personal-skill-list'>
+          <text>{{index + 1}}. {{item}};</text>
+      </view>
+
     </view>
 
   </view>

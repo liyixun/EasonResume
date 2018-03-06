@@ -1,0 +1,38 @@
+/* pages/project/project.wxss */
+
+.block {
+  margin: 0 10px;
+  display: block;
+}
+
+.block-head {
+  margin-top: 10px;
+  display: block;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.project-block {
+  display: block;
+  padding-left: 10px;
+}
+
+.project-info-head {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.project-info-body {
+  padding-left: 10px;
+}
+
+.project-info-label {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.project-info-content {
+  font-size: 14px;
+  font-weight: 200;
+}
+

@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/skill/skill"
+    "pages/skill/skill",
+    "pages/project/project"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -20,6 +21,10 @@
       {
         "pagePath": "pages/skill/skill",
         "text": "技能"
+      },
+      {
+        "pagePath": "pages/project/project",
+        "text": "项目"
       }
     ],
     "color": "white",
