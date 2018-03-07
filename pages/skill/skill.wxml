@@ -4,8 +4,8 @@
       <text class='personal-skill-head head'>工作经验</text>
       <view wx:for="{{workingExperienceList}}" wx:for-item="item" wx:for-index="index" wx:key="index">
         <view class='personal-skill-line'>
-          <text class='head'>
-          {{item.company}}{{item.department}}({{item.startTime}}-{{item.endTime}})
+          <text class='head' bindtap="linkToCompanyWebsite">
+           <text class='item-clickable'>{{item.company}}</text> {{item.department}}({{item.startTime}}-{{item.endTime}})
           </text>
         </view>
         <view class='personal-skill-line head'>

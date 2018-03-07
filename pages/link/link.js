@@ -1,31 +1,18 @@
-// pages/skill/skill.js
-
-var personalInfo = require('../../data/personal-info.js');
-var util = require('../../utils/util.js');
-
+// pages/link/link.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    workingExperienceList: [],
-    personalSkillList: []
+  
   },
-  linkToCompanyWebsite: function(e) {
-    console.log('进来了!');
-    wx.redirectTo({
-      url: '../link/link'
-    });
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.setData({
-      workingExperienceList: personalInfo.workingExperience,
-      personalSkillList: personalInfo.personalSkillList
-    });
+  
   },
 
   /**

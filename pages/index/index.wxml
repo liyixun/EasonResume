@@ -23,7 +23,7 @@
 
     <view class='user-info-block'>
       <text class='user-info-block-head'>二维码名片</text>
-      <image src='eason.jpeg' mode='widthFix'></image>
+      <image src='../../img/eason.jpeg' mode='widthFix'></image>
     </view>
 
   </view>
